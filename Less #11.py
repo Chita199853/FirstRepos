@@ -20,6 +20,8 @@ except TypeError:
 except ValueError:
     print("Не верно выбрано условие, или не корректно указано значение переменных! ")"""
 
+
+"""
 from datetime import date
 td = date.today()
 
@@ -29,4 +31,16 @@ year = int(input("Введите год: "))
 
 age = td.year - year - ((td.month, td.day) < (mon, day))
 
-print("Вам : {}".format(age))
+print("Вам : {}".format(age))"""
+
+age_1 = [2, 10 ,1998]
+age_2 = [2, 10 ,1998]
+sum_age_1 = sum(age_1)
+sum_age_2 = sum(age_2)
+
+if sum_age_1 < sum_age_2:
+    print("Age_1 старше Age_2 ! ")
+elif sum_age_1 == sum_age_2:
+    print("Ровестники! ")
+else:
+    print("Age_2 Старше Age_1 !")
