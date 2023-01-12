@@ -1,4 +1,4 @@
-print("Приветствуем вас в нашем калькуляторе! Выберите что вам нужно сделать ! : ")
+"""print("Приветствуем вас в нашем калькуляторе! Выберите что вам нужно сделать ! : ")
 try:
     change_ual = int(input("1)+ \n 2)-\n 3)/ \n 4)*\n"))
     a = int(input("Число 1 : \n"))
@@ -18,4 +18,15 @@ except ZeroDivisionError:
 except TypeError:
     print("Мы работаем только с числами :)")
 except ValueError:
-    print("Не верно выбрано условие, или не корректно указано значение переменных! ")
+    print("Не верно выбрано условие, или не корректно указано значение переменных! ")"""
+
+from datetime import date
+td = date.today()
+
+day = int(input("Введите день: "))
+mon = int(input("Введите месяц: "))
+year = int(input("Введите год: "))
+
+age = td.year - year - ((td.month, td.day) < (mon, day))
+
+print("Вам : {}".format(age))
