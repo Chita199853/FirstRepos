@@ -32,7 +32,7 @@ year = int(input("Введите год: "))
 age = td.year - year - ((td.month, td.day) < (mon, day))
 
 print("Вам : {}".format(age))"""
-
+"""
 age_1 = [2, 10 ,1998]
 age_2 = [2, 10 ,1998]
 sum_age_1 = sum(age_1)
@@ -43,4 +43,14 @@ if sum_age_1 < sum_age_2:
 elif sum_age_1 == sum_age_2:
     print("Ровестники! ")
 else:
-    print("Age_2 Старше Age_1 !")
+    print("Age_2 Старше Age_1 !")"""
+
+
+number = str(323)
+number_res_sum = 0
+number_res_proizv = 1
+
+for num in number:
+    number_res_sum += int(num)
+    number_res_proizv *= int(num)
+print("Сумма : {} ; Произведение : {}".format(number_res_sum, number_res_proizv))
