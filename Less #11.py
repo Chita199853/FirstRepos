@@ -46,11 +46,25 @@ else:
     print("Age_2 Старше Age_1 !")"""
 
 
-number = str(323)
+"""number = str(323)
 number_res_sum = 0
 number_res_proizv = 1
 
 for num in number:
     number_res_sum += int(num)
     number_res_proizv *= int(num)
-print("Сумма : {} ; Произведение : {}".format(number_res_sum, number_res_proizv))
+print("Сумма : {} ; Произведение : {}".format(number_res_sum, number_res_proizv))"""
+
+"""min = int(input("Enter Min value:  "))
+max = int(input("Enter Max value: "))
+step = int(input("Enter step values: "))
+list_number = []
+
+if min >0 and max > 0 and step > 0:
+    for i in range(min, max, step):
+        list_number.append(i)
+    print(list_number)
+else:
+    print("Введены не корекктные данные! ")"""
+
+
