@@ -18,4 +18,9 @@ for j in list_num:
         print("{} - нам подходит! Оно меньше! ".format(j))
 """
 
+"""list_n = [1, 4, 2, 1, 4, 5, 67, 554]
+min_val = min((list_n))
+counter = list_n.count(min_val)
+print("Минимальное значение в списке : {} ,в количестве {} штук!".format(min_val, counter))
+"""
 
