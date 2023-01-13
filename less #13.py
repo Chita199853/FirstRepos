@@ -12,3 +12,8 @@ while i < n:
     fib_list.append(fib2)
 print(fib_list)"""
 
+"""import math
+
+n = int(input("Число :  "))
+print(math.factorial(n))"""
+
