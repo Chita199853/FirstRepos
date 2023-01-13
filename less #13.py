@@ -17,3 +17,7 @@ print(fib_list)"""
 n = int(input("Число :  "))
 print(math.factorial(n))"""
 
+"""for i in range(10000):
+    if i % 11 == 0:
+        print("{} - кратно 11 ! ".format(i))"""
+
