@@ -32,3 +32,14 @@ for i in list_n:
         list_n.append(0)
 print(list_n)"""
 
+"""matrix1 = [[6,5,3],[0,1,4],[5,8,2]]
+diag = []
+iter = 0
+for m in matrix1:
+    num_diag = matrix1[iter][iter]
+    iter+=1
+    diag.append(num_diag)
+print(diag)
+print("Max value diag : {}".format(max(diag)))"""
+
+
