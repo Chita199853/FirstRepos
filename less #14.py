@@ -43,3 +43,25 @@ print(diag)
 print("Max value diag : {}".format(max(diag)))"""
 
 
+"""matrix1 = [[-6,5,3],[-3,1,4],[-5,8,-8]]
+diag = []
+pod_diG = []
+iter = 0
+
+for m in matrix1:
+    print(m)
+    num_diag = matrix1[iter][iter]
+    try:
+        pod = matrix1[iter][:iter]
+        for j in pod:
+            if j <0:
+                pod_diG.append(j)
+    except IndexError:
+        continue
+    finally:
+        iter += 1
+    diag.append(num_diag)
+
+print("Max value diag : {}".format(max(diag)))
+print("Отрицательные числа под главной диагональю : {} , Количество : {}".format(pod_diG, len((pod_diG))))"""
+
