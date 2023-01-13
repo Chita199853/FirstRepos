@@ -24,3 +24,11 @@ counter = list_n.count(min_val)
 print("Минимальное значение в списке : {} ,в количестве {} штук!".format(min_val, counter))
 """
 
+"""list_n = [1, 4, 2, 1, 4, 35, 67, 554]
+for i in list_n:
+    print(i)
+    if i > 3 and i < 34:
+        list_n.remove(i)
+        list_n.append(0)
+print(list_n)"""
+
