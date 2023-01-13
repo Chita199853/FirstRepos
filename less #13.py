@@ -20,4 +20,11 @@ print(math.factorial(n))"""
 """for i in range(10000):
     if i % 11 == 0:
         print("{} - кратно 11 ! ".format(i))"""
+"""res = []
+for i in range(1,10):
+    res.append(i)
+summ = 0
+for number in res[1:-1]:
+    summ = number + summ
+print(summ)"""
 
