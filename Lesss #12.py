@@ -9,4 +9,3 @@ print("Max value : {}".format(tpls_char[-1]))"""
 """inp_val = input("Enter number: ")
 print(inp_val)
 print(inp_val[::-1])"""
-
