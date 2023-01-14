@@ -35,3 +35,28 @@ with open("news.txt","r",encoding="utf-8") as f:
         simv_in_line.clear()
     print("Строк в файле : {}".format(line_iter-1))"""
 
+
+"""
+
+import math
+
+print(1 ** 100)
+print(2 ** 16)
+print(2 - 1000)
+print(2 + 2 * 2)
+print(60 / 3)
+print(math.sqrt(144))
+print(2 + (5 * 14))
+print(66 -11)
+print(math.sqrt(16 - 8))"""
+
+""" Сгенерировать n множеств.
+ Вывести элементы кратные трём и не входящие в
+  первое множество."""
+
+"""mn_1= set([i for i in range(1,55,6)])
+mn_2= set([i for i in range(1,55,1)])
+for j in mn_2-mn_1:
+    if j % 3 == 0:
+        print("Kratno 3 : {}".format(j))"""
+
