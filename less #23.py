@@ -41,4 +41,3 @@ while True:
         treugol()
     else:
         break"""
-
