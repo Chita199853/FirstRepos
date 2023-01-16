@@ -1,6 +1,6 @@
 # class Animal:
-#     def __init__(self, name, age, sex):
-#         self.__name = name
+#     def __init__(self, name = "Vasy", age = 1, sex = "He"):
+#         self.name = name
 #         self.age = age
 #         self.sex = sex
 #     def Namer(self):
@@ -8,9 +8,30 @@
 #     def Ager(self):
 #         print("Возраст животного : " + str(self.age))
 #     def Sexer(self):
-#         print("Он(а) " + self.sex)
-# P = Animal("Vasy", 33, "He")
-# print(P.name)
+#         print("Он(а) " + str(self.sex))
+#
+# class kitty(Animal):
+#     def __init__(self, name = "Traser", age = 2, sex = "He"):
+#         self.name = name
+#         self.age = age
+#         self.sex = sex
+#     def Namer(self):
+#         print(self.name)
+#     def Ager(self):
+#         print(self.age)
+#     def Sexer(self):
+#         print(self.sex)
+#
+# A = Animal("Tras", 2 , "She")
+# A.Namer()
+# A.Ager()
+# A.Sexer()
+# print()
+# P = kitty()
+# P.Namer()
+# P.Ager()
+# P.Sexer()
+# print()
 
 
 # Dog = Animal("Барсик", "5 лет ", "мальчик!")
